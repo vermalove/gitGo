@@ -9,6 +9,7 @@ phases:
       - echo Building the Go code...
       - go build application.go
 artifacts:
+  primary-artifacts:
   secondary-artifacts:
     golang_artifacts:
       base-directory: gitGo
